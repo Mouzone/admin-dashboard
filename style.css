@@ -64,9 +64,10 @@ body {
 }
 
 .main {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    grid-template-rows: 1fr 1fr 7fr;
+    grid-template-rows: 1fr 1fr 10fr;
 }
 
 .account-img {
@@ -95,7 +96,7 @@ body {
 .bar {
     height: 30px;
     width: 700px;
-    background-color: lightgray;
+    background-color: #e2e8f0;
     border-radius: 20px;
     justify-self: left;
     align-self: center;
@@ -112,4 +113,38 @@ body {
 .pfp {
     height: 50px;
     border-radius: 50%;
+}
+
+
+.account {
+    display: grid;
+    grid-template-columns: auto 5fr 3fr;
+    padding:  10px 10px 30px 35px;
+    grid-gap: 10px;
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 1, .5);
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0ea5e9;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+p.account-msg {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.welcome {
+    justify-self: left;
 }
