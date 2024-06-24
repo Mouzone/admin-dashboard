@@ -32,29 +32,32 @@ body {
     margin-bottom: 10px;
 }
 
-.logo {
+.logo,
+.option {
     display: grid;
-    grid-template-columns: 1fr 3fr;
     align-items: center;
-    font-size: 30px;
     grid-gap: 20px;
 }
 
+.logo {
+    grid-template-columns: 1fr 3fr;
+}
+
 .option {
-    display: grid;
     grid-template-columns: 1fr 4fr;
-    align-items: center;
-    grid-gap: 20px;
+}
+
+.sidebar-img,
+.logo-img {
+  justify-self: right;
 }
 
 .sidebar-img {
     fill: white;
     height: 30px;
-    justify-self: right;
 }
 
 .logo-img {
-    height:50px;
+    height: 50px;
     width: auto;
-    justify-self: right
 }
