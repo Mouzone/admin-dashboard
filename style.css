@@ -118,7 +118,7 @@ body {
 
 .account {
     display: grid;
-    grid-template-columns: auto 5fr 3fr;
+    grid-template-columns: auto 6fr 3fr;
     padding:  10px 10px 30px 35px;
     grid-gap: 10px;
     box-shadow: 0 4px 4px -4px rgba(0, 0, 1, .5);
@@ -138,6 +138,7 @@ button {
 .actions {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 p.account-msg {
@@ -147,4 +148,5 @@ p.account-msg {
 
 .welcome {
     justify-self: left;
+    align-self: center;
 }
