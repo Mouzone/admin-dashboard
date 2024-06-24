@@ -9,17 +9,19 @@ body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: grid;
     grid-template-columns: 1fr 4fr;
+    height: 1vh;
 }
 
 .sidebar {
-    background-color: #38bdf8;
+    height: 200%;
+    background-color: #0ea5e9;
     color: whitesmoke;
     font-weight: bolder;
     grid-row: 1 / 3;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 15px;
+    gap: 50px;
+    padding: 20px;
 }
 
 .main-sidebar,
@@ -27,4 +29,30 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    font-size: 30px;
+    grid-gap: 20px;
+}
+
+.option {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    grid-gap: 20px;
+}
+.sidebar-img {
+    fill: white;
+    height: 30px;
+    justify-self: right;
+}
+
+.logo-img {
+    height:50px;
+    width: auto;
+    justify-self: right
 }
